@@ -4,6 +4,7 @@
 
 double Calculator::Calculat(double x, char oper, double y)
 {
+	
 	switch (oper)
 	{
 	case '+':
@@ -15,7 +16,7 @@ double Calculator::Calculat(double x, char oper, double y)
 	case '/':
 		return x / y;
 	default:
-		return 0.0;
+		return 0;
 	}
 
 }
