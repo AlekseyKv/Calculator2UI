@@ -27,6 +27,11 @@ int main()
 			const char* sentence = "It is divide by zero\n";
 			fputs(sentence, ptrFile);
 		}
+		if (cin.fail()) {
+			cin.clear();
+			cout << "It is error" << endl;
+			break;
+		}
 		else {
 			result = c.Calculat(x, oper, y);
 			cout << result << endl;

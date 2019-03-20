@@ -15,8 +15,7 @@ double Calculator::Calculat(double x, char oper, double y)
 		return x * y;
 	case '/':
 		return x / y;
-	default:
-		return 0;
+	
 	}
 
 }
